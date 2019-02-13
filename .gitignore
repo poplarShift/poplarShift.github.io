@@ -1,1 +1,4 @@
-node_modules
+_site
+scss
+
+.DS_Store

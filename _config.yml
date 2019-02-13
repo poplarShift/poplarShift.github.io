@@ -1,0 +1,46 @@
+url: https://poplarshift.github.io
+baseurl:
+plugins: ['jekyll/scholar']
+
+# Site settings
+title: Achim Randelhoff
+email: a@r.ul
+description: "Arctic Oceanography"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: FFFFFF
+  secondary: 00FFFF
+  secondary-dark: 333
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: envelope
+    url: mailto:me
+  - title: github
+    url: http://github.com/poplarshift
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Bibliography settings
+scholar:
+  style: american-meteorological-society
+  locale: en
+
+  sort_by: year
+  order: ascending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: bib
+
+  replace_strings: true
+  join_strings:    true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"

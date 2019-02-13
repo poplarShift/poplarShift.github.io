@@ -1,0 +1,22 @@
+  <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-left">
+                    <span class="copyright">Copyright &copy; {{ site.title }} 2019</span>
+                </div>
+                <div class="col-md-4 text-center">
+                    <ul class="list-inline social-buttons">
+                        {% for network in site.social %}
+                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="col-md-4 text-right">
+                        <!-- <a href="http://somelink"> -->
+                          <img src="{{ site.baseurl }}/img/takuvik.png" height="50">
+                        <!-- </a> -->
+                </div>
+            </div>
+        </div>
+    </footer>
