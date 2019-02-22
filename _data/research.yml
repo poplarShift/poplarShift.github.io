@@ -1,9 +1,7 @@
 - name: Vertical turbulent nitrate fluxes
-  pic: dummy.png
-  more: papers
-  description: "."
+  pic: rvhh.jpg
+  description: ""
 
 - name: Ice-ocean interaction
-  pic: dummy.png
-  more: 
+  pic: tic.png
   description: "yo."
