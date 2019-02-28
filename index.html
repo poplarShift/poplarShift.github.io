@@ -1,18 +1,35 @@
 ---
 layout: default
 ---
-
+<div align='right' style="line-height: 1.8; padding: 5px">
+    Above: February in the Arctic Ocean <a href="https://scihub.copernicus.eu">
+      as seen by  Sentinel-1</a>.
+</div>
 <!-- RESEARCH -->
     <section id="research" class="{% cycle '', 'bg-light-gray' %}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Topics</h2>
+                    <h2 class="section-heading">Research Topics</h2>
                     <!-- <h3 class="section-subheading text-muted">bleh</h3> -->
                 </div>
             </div>
         </div>
         {% for topic in site.data.research %}
+        {% if topic.picright %}
+        <div class="container">
+            <div class="row research-topic">
+                <div class="col-lg-8">
+                        <h4>{{ topic.name }}</h4>
+                        <p class="text-muted">{{ topic.description }}</p>
+                        <!-- <p class="text-muted"><i>find out more</i> &rarr; <a class="page-scroll" href="#{{ topic.more }}">{{ topic.more }}</a></p> -->
+                </div>
+                <div class="col-md-3">
+                        <img src="img/research/{{ topic.pic }}" class="img-responsive" alt="">
+                </div>
+            </div>
+        </div>
+        {% else %}
         <div class="container">
             <div class="row research-topic">
                 <div class="col-md-4">
@@ -25,12 +42,37 @@ layout: default
                 </div>
             </div>
         </div>
+        {% endif %}
         {% endfor %}
-    <!-- </div> -->
     </section>
 
 <!--- CODE -->
-    <section id="code" class="{% cycle '', 'bg-light-gray' %}">
+<section id="research" class="{% cycle '', 'bg-light-gray' %}">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Code</h2>
+                <h3 class="section-subheading text-muted">Because open science is so much more than just open access publication</h3>
+            </div>
+        </div>
+    </div>
+    {% for code in site.data.code %}
+    <div class="container">
+        <div class="row research-topic">
+            <div class="col-md-4">
+                    <img src="img/research/{{ code.pic }}" class="img-responsive" alt="">
+            </div>
+            <div class="col-lg-8">
+                    <div>
+                        <h4><a href="{{ code.url }}">{{code.name}}</a></h4>
+                        <p class="text-muted">{{code.description}}</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</section>
+    <!-- <section id="code" class="{% cycle '', 'bg-light-gray' %}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -54,7 +96,7 @@ layout: default
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 <!--- PAPERS -->
 <section id="papers" class="{% cycle '', 'bg-light-gray' %}">
