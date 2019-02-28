@@ -1,6 +1,6 @@
 - name: Bio-optical Argo floats
   pic: bgc-argo.png
-  description: "<p>Remote sensing of the global ocean using satellites monitoring the state of marine ecosystems year-round. In the Arctic, the presence of sea ice and the long polar night are a showstopper for many of these approaches. <a href='http://biogeochemical-argo.org'>Biogeochemical (BGC) Argo floats</a> are autonomous robots that drift around with ocean currents, going up and down in the water column as they sample the world's oceans. The Takuvik laboratory that I am a part of has been deploying BGC Argo floats in Baffin Bay to study the year-round evolution of ecosystem dynamics, event during winter when satellites cannot look into the ocean.</p>"
+  description: "<p>Remote sensing of the global ocean using satellites monitoring the state of marine ecosystems year-round. In the Arctic, the presence of sea ice and the long polar night are a showstopper for many of these approaches. <a href='http://biogeochemical-argo.org'>Biogeochemical (BGC) Argo floats</a> are autonomous robots that drift around with ocean currents, going up and down in the water column as they sample the world's oceans. The Takuvik laboratory that I am a part of has been deploying BGC Argo floats in Baffin Bay to study the year-round evolution of ecosystem dynamics, even during winter when satellites cannot look into the ocean.</p>"
 
 - name: Vertical turbulent nitrate fluxes
   pic: rvhh.jpg
