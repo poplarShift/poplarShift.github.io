@@ -1,4 +1,4 @@
-- name: bleh
-  network: github
-  url: https://github.com/xgcm/xgcm
-  description: ''
+- name:
+  pic: dummy.png
+  url: https://github.com/poplarShift
+  description: 'under construction'
