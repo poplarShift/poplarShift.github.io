@@ -9,12 +9,12 @@
     {% endif %}
 {% endfor %}
 
-{% if entry.doi %}
-<!-- &rarr;  -->
-<a href="http://doi.org/{{ entry.doi }}">[online]</a>
-{% endif %}
 {% if pdf %}
 <a href="{{ site.url }}/papers/{{ filename }}">[pdf]</a>
+{% endif %}
+{% if entry.doi %}
+<!-- &rarr;  -->
+<a href="http://doi.org/{{ entry.doi }}">[journal webpage]</a>
 {% endif %}
 <!-- {% if entry.note %}
 <em>({{ entry.note }})</em>
