@@ -119,10 +119,12 @@ layout: default
       </div> -->
       <div class="row">
           <div class="col-lg-12">
-              <h3>Papers</h3>
-	        {% bibliography --query @article %}
-          <h3>Ph.D. thesis</h3>
-      {% bibliography --query @book %}
+            <h3>Code and ancillary data</h3>
+            {% bibliography --query @misc %}
+            <h3>Papers</h3>
+  	        {% bibliography --query @article %}
+            <h3>Ph.D. thesis</h3>
+            {% bibliography --query @book %}
           </div>
       </div>
     </div>

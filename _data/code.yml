@@ -1,4 +1,9 @@
-- name:
+- name: Code and ancillary data for publications
+  pic: dummy.png
+  # url: https://github.com/poplarShift
+  description: Have you ever read an article and thought "I wonder how their calculations would pan out if I used my own value for this one constant they could only guess", or "I would really like to use that figure, but I wish I could modify their color bar", or "Nice description, but how did they actually calculate that average"? Me too. And that is why it is more important than ever to not only share raw data, but also work flows, computer code, and other machine-readable information. In the section below you can find supporting material for my more recent publications.
+
+- name: Open source software
   pic: dummy.png
   url: https://github.com/poplarShift
-  description: 'under construction'
+  description: Open source data science computer programs are more advanced than ever. In addition to being an avid python user, I am a regular contributor to the <a href='https://www.holoviews.org'>Holoviews package</a>, part of the PyViz ecosystem of advanced Python visualisation and data handling tools. You can find some of my own materials in <a href='https://github.com/poplarShift/pyviz-recipes'>this repository</a>.
