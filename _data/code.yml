@@ -6,4 +6,4 @@
 - name: Open source software
   pic: dummy.png
   url: https://github.com/poplarShift
-  description: Open source data science computer programs are more advanced than ever. In addition to being an avid python user, I am a regular contributor to the <a href='https://www.holoviews.org'>Holoviews package</a>, part of the PyViz ecosystem of advanced Python visualisation and data handling tools. You can find some of my own materials in <a href='https://github.com/poplarShift/pyviz-recipes'>this repository</a>.
+  description: Open source data science computer programs are more advanced than ever. In addition to being an avid python user, I am a regular contributor to the <a href='https://www.holoviews.org'>Holoviews package</a>, part of the PyViz ecosystem of advanced visualisation and data handling tools. You can find some of my own material in <a href='https://github.com/poplarShift/pyviz-recipes'>this repository</a>.
