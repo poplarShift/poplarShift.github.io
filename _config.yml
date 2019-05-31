@@ -1,9 +1,12 @@
 url: https://poplarshift.github.io
 baseurl:
-plugins: ['jekyll/scholar']
+plugins:
+  - jekyll-seo-tag
+  # - jekyll/scholar
 
 # Site settings
 title: Achim Randelhoff
+author: Achim Randelhoff
 email: me@me
 description: "Arctic Oceanography"
 

@@ -5,4 +5,5 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll"
   gem 'jekyll-scholar'
+  gem 'jekyll-seo-tag'
 end
