@@ -13,8 +13,11 @@
 <a href="{{ site.url }}/papers/{{ filename }}">[pdf]</a>
 {% endif %}
 {% if entry.doi %}
-<!-- &rarr;  -->
-<a href="http://doi.org/{{ entry.doi }}">[webpage]</a>
+  {% if entry.type == 'article' %}
+    <a href="http://doi.org/{{ entry.doi }}">[webpage]</a>
+  {% elsif entry.type == 'misc' %}
+    <a href="{{ entry.url }}">[webpage]</a>
+  {% endif %}
 {% endif %}
 <!-- {% if entry.note %}
 <em>({{ entry.note }})</em>

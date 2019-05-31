@@ -1,6 +1,6 @@
 fname = 'webpage_refs.bib'
 
-omits = ['file =', 'owner =', 'shorttitle =']
+omits = ['file =', 'owner =', 'shorttitle =', 'note =']
 
 with open(fname) as f:
     lines = f.readlines()
