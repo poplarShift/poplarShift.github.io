@@ -1,7 +1,7 @@
 - name: Code and ancillary data for publications
   pic: dummy.png
   # url: https://github.com/poplarShift
-  description: Have you ever read an article and thought "I wonder how their calculations would pan out if I used my own value for this one constant they could only guess", or "I would really like to use that figure, but I wish I could modify their color bar", or "Nice description, but how did they actually calculate that average"? Me too. And that is why it is more important than ever to not only share raw data, but also work flows, computer code, and other machine-readable information. In the section below you can find supporting material for my more recent publications.
+  description: Have you ever read an article and thought "I wonder how their calculations would pan out if I used my own value for this one constant they could only guess", or "I would really like to use that figure, but I wish I could modify their color bar", or "Nice description, but how did they actually calculate that average"? Me too. And that is why it is more important than ever to not only share raw data, but also work flows, computer code, and other machine-readable information. In the section below you can find supporting material for my more recent publications. The first article for which I published all necessary material is our <a href='https://github.com/poplarShift/ice-edge'>2019 paper on ice edge blooms</a>.
 
 - name: Open source software
   pic: dummy.png
