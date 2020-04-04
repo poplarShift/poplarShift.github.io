@@ -13,10 +13,24 @@
 <a href="{{ site.url }}/papers/{{ filename }}">[pdf]</a>
 {% endif %}
 {% if entry.doi %}
+  <!-- PAPERS -->
   {% if entry.type == 'article' %}
     <a href="http://doi.org/{{ entry.doi }}">[webpage]</a>
+
+    <!-- handling specific bib items -->
+    {% if entry.key == 'randelhoff2020panarctic' %}
+      <a href="https://github.com/poplarShift/arctic-nitrate-fluxes/blob/master/paper/paper_interactive.html" download target="blank">[interactive paper]</a>
+    {% endif %}
+
+  <!-- DATA/CODE -->
   {% elsif entry.type == 'misc' %}
-    <a href="{{ entry.url }}">[webpage]</a>
+    <a href="{{ entry.url }}">[repository]</a>
+    <a href="http://doi.org/{{ entry.doi }}">[archive]</a>
+
+    <!-- handling specific bib items -->
+    {% if entry.key == 'randelhoff2020software' %}
+      <a href="https://github.com/poplarShift/arctic-nitrate-fluxes/blob/master/paper/paper_interactive.html" download target="blank">[interactive paper]</a>
+    {% endif %}
   {% endif %}
 {% endif %}
 <!-- {% if entry.note %}
