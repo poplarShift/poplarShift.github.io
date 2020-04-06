@@ -2,7 +2,7 @@
 
 fname = 'webpage_refs.bib'
 
-omits = ['file =', 'owner =', 'abstract =', 'copyright', 'shorttitle =', 'note =', 'bibtex[']
+omits = ['file =', 'owner =', 'copyright', 'shorttitle =', 'note =', 'bibtex[']
 
 with open(fname) as f:
     lines = f.readlines()
